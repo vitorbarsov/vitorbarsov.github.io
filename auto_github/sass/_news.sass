@@ -1,0 +1,43 @@
+.news
+ margin-bottom: 80px 
+	&__link
+	 position: relative
+	 display: block
+	 text-align: right 
+	 font-size: 20px
+	 color: $active-color
+	 &::before 
+	  content: ''
+	  position: absolute 
+	  right: -20px
+	  top: 5px
+	  display: block
+	  width: 10px
+	  height: 18px
+	  background: url(../img/news/arrow.png) center no-repeat
+ &-img 
+  position: relative 
+  &::before 
+   content: ''
+   position: absolute
+   top: 20px
+	  left: 20px
+   display: block 
+	  width: 170px
+	  height: 170px
+	  background: url(../img/news/rectangle.png) center no-repeat
+ &__title 
+  position: relative 
+  &::after  
+	  content: ''
+	  position: absolute
+	  left: -550px
+	  top: 20px
+	  display: block  
+	  height: 1px
+	  width: 95%
+	  background-color: $active-color
+
+	 
+	  
+

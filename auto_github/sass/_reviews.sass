@@ -1,0 +1,23 @@
+.reviews
+ margin-bottom: 60px	 
+ &__title 
+  position: relative 
+  &::after  
+   content: ''
+	  position: absolute
+	  left: -550px
+	  top: 15px
+	  display: block  
+	  height: 1px
+	  width: 45% 
+	  background-color: $active-color 
+	 &::before  
+   content: ''
+	  position: absolute
+	  right: -550px
+	  top: 15px
+	  display: block  
+	  height: 1px
+	  width: 135% 
+	  background-color: $active-color
+ 
