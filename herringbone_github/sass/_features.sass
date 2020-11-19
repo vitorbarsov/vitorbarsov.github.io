@@ -1,0 +1,25 @@
+.features 
+  &-block 
+    display: flex
+    justify-content: space-between
+    &__item 
+      position: relative
+      text-align: center
+      &::before 
+        content: ''
+        position: absolute 
+        display: block 
+        top: -25px
+        left: 40px
+        width: 100px
+        height: 100px
+        border: 2px solid #368c02
+        border-radius: 50%
+    &__img 
+      margin-bottom: 65px
+    &__text 
+      font-size: 20px
+      font-weight: 400
+    &__bold 
+      display: block 
+      font-weight: 700
